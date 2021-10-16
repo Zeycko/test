@@ -1,3 +1,7 @@
 (async () => {
-  console.log("This is a new repo");
+  main();
 })()
+
+function main() {
+  return console.log("This is a new repo, welcome!")
+}
